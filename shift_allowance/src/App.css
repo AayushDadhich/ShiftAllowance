@@ -1,0 +1,111 @@
+.outerDiv{
+  position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background: #eee;
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+.innerDiv{
+  position: absolute;
+  height: 50%;
+  background: white;
+  width: 50%;
+  padding-top: 8em;
+  align-items: center;
+  justify-content: center;
+  text-align-last: center;
+}
+
+.applicationName{
+  padding: 2%;
+}
+
+.signinButtonDiv{
+  margin-top:2%;
+}
+
+.homeOuterDiv{
+  display: contents;
+  position: absolute;
+  align-items: center;
+}
+
+.homeAppName{
+  margin-top: 7em;
+  text-align: center;
+}
+
+.homeButtondiv{
+  display: flex;
+    justify-content: space-evenly;
+    margin-top: 8em;
+}
+
+.homeButtons{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.homeSignoutDiv{
+  margin-top: 7%;
+  display: flex;
+  justify-content: center;
+}
+
+.addRecordOuterDiv{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  align-items: center;
+}
+
+.addRecordField{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.viewRecord{
+padding: 2%;
+}
+
+.recordTable{
+margin-top: 3%;
+}
+
+table, th, td,tr,thead,tbody {
+  border: 1px solid black;
+  text-align: center;
+}
+table 
+{   
+  width:80%;
+}
+
+.errorMessage{
+  color: red;
+}
+
+.project{
+  margin:5%;
+
+}
+
+
+
+
